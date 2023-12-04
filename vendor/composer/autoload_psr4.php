@@ -6,5 +6,5 @@ $vendorDir = dirname(__DIR__);
 $baseDir = dirname($vendorDir);
 
 return array(
-    'Nuevosiglo\\Shell\\' => array($baseDir . '/src'),
+    'App\\Command\\' => array($baseDir . '/src/App/Command'),
 );
